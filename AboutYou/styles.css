@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: lightslategrey;
+    color: white;
+    padding: 20px;
+    flex: auto;
+}
+
+p{
+    text-align: center;
+}
+
+nav{
+    background-color: beige;
+    text-align: center;
+    padding: 15px;
+}
+
+.center{
+    display: block;
+    margin-left: 42%;
+    margin-right: 58%;
+}
