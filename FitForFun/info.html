@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--
+            Name: Miriam Vera
+            Date: 9/22/2021
+        -->
+        <meta charset="utf-8">
+        <title>FitForFun Fitness Club - Homepage</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>FitForFun Fitness Club</h1>
+        <nav>
+            <a href="index.html">Homepage</a>
+            <a href="classes.html">Classes</a>
+            <a href="info.html">Information</a>
+        </nav>
+        <h2>Information</h2>
+        <br>
+        <form action="file:///C:/Users/minia/OneDrive/Desktop/ITC370-Adv-Web-Dev/FitForFun/thankyou.html"  class="abs" method="GET">
+            <h3>Sign-Up Form</h3>
+            <!-- First Name -->
+            <label for="firstname">First name:</label><br>
+            <input type="text" id="firstname" name="firstname"><br>
+            <!-- Last Name -->
+            <label for="lastname">Last name:</label><br>
+            <input type="text" id="lastname" name="lastname"><br>
+            <!-- Email -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <!-- Phone Number -->
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br>
+            <!-- Best way to reach -->
+            <label for="contact">Best way to reach:</label><br>
+            <select name="contact" id="contact">
+                <option value="email">Email</option>
+                <option value="pnumber">Phone</option>
+                <option value="owl">Owl</option>
+            </select>
+            <!-- Select Classes -->
+            <p>Select Classes:</p>
+            <div>
+                <input type="checkbox" id="crosstrain" name="crosstrain">
+                <label for="crosstrain">Cross Training</label>
+            </div>
+            <div>
+                <input type="checkbox" id="sprint" name="sprint">
+                <label for="sprint">Sprint</label>
+            </div>
+            <div>
+                <input type="checkbox" id="spin" name="spin">
+                <label for="spin">Spin</label>
+            </div>
+            <div>
+                <input type="checkbox" id="bodypump" name="bodypump">
+                <label for="bodypump">BodyPump</label>
+            </div>
+            <div>
+                <input type="checkbox" id="bdycmbt" name="bdycmbt">
+                <label for="bdycmbt">BodyCombat</label>
+            </div>
+            <div>
+                <input type="checkbox" id="stpint" name="stpint">
+                <label for="stpint">Step Interval</label>
+            </div>
+            <div>
+                <input type="checkbox" id="advct" name="advct">
+                <label for="advct">Advanced Cross Training</label>
+            </div>
+            <div>
+                <input type="checkbox" id="mixfit" name="mixfit">
+                <label for="mixfit">MixxedFIT</label>
+            </div>
+            <div>
+                <input type="checkbox" id="zumba" name="zumba">
+                <label for="zumba">Zumba</label>
+            </div>
+            <!--Preferred Class Time-->
+            <p>Please select your preferred class time:</p>
+            <input type="radio" id="am" name="pref_time" value="am">
+            <label for="am">AM</label><br>
+            <input type="radio" id="pm" name="pref_time" value="pm">
+            <label for="pm">PM</label><br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+        <footer class="abs">
+            <p>© 2021 by FitForFun</p>
+            <p>Address: 1234 N. Workout St, Springfield, MO 67890</p>
+            <p>Phone: (417) 123-4567</p>
+        </footer>
+    </body>
+</html>

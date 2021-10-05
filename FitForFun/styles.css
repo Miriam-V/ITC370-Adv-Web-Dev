@@ -1,0 +1,137 @@
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+th {
+    background-color: cornflowerblue;
+}
+
+h1 {
+    text-align: center;
+    background-color: coral;
+    padding: 0px;
+}
+
+.posrel1 {
+    position: relative;
+    padding-right: 25px;
+}
+
+.posrel2 {
+    position: relative;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+posrel3 {
+    position: relative;
+    padding-left: 25px;
+}
+
+h3.abs1{
+    position: absolute;
+    top: 545px;
+    left: 33px;
+    width: 250px;
+    text-align: center;
+    background-color: coral;
+}
+
+h3.abs2 {
+    position: absolute;
+    top: 545px;
+    left: 312px;
+    width: 250px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+h3.abs3 {
+    position: absolute;
+    top: 545px;
+    left: 591px;
+    width: 250px;
+    text-align: center;
+    background-color: coral;
+}
+
+h3.abs4 {
+    position: absolute;
+    top: 545px;
+    left: 870px;
+    width: 250px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+h3.abs5 {
+    position: absolute;
+    top: 545px;
+    left: 1149px;
+    width: 250px;
+    text-align: center;
+    background-color: coral;
+}
+
+p.abs1 {
+    position: absolute;
+    top: 580px;
+    left: 33px;
+    width: 245px;
+    text-align: center;
+}
+
+p.abs2 {
+    position: absolute;
+    top: 580px;
+    left: 313px;
+    width: 245px;
+    text-align: center;
+}
+
+p.abs3 {
+    position: absolute;
+    top: 580px;
+    left: 590px;
+    width: 245px;
+    text-align: center;
+}
+
+p.abs4 {
+    position: absolute;
+    top: 580px;
+    left: 870px;
+    width: 245px;
+    text-align: center;
+
+}
+
+p.abs5 {
+    position: absolute;
+    top: 580px;
+    left: 1149px;
+    width: 245px;
+    text-align: center;
+}
+
+footer.abs {
+    position: absolute;
+    top: 900px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: coral;
+
+}
+
