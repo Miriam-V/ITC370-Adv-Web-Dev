@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+            Name: Miriam Vera
+            Date: 10/12/2021
+        -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="styles.css">
+        <title>Viaje Seguro</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            nav ul {
+                list-style: none;
+            }
+
+            nav a {
+                color: white;
+                background: darkolivegreen;
+                font-weight: bold;
+                display: block;
+                padding: 15px;
+                font-size: 3vw;
+                text-decoration: none;
+                text-align: center;
+            }
+
+            nav a:hover {
+                background: darkgray;
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            @media (min-width: 480px) {
+                nav ul {
+                    display: flex;
+                }
+                nav li {
+                    flex: 1 1 auto;
+                }
+            }
+
+            @media only screen and (min-width: 768px) {
+                nav a {
+                    font-size: 20px;
+                }
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <br>
+        <h1 style="font-size: 4vw;">Viaje Seguro</h1>
+        <h2>Travel Agency</h2>
+        <br>
+        <nav>
+            <ul>
+                <li><a href="">Welcome</a></li>
+                <li><a href="">Area Info</a></li>
+                <li><a href="">Photo Tour</a></li>
+                <li><a href="">Offers</a></li>
+            </ul>
+        </nav>
+        <img src="Chichen_Itza.jpg" alt="picture of chichen itza">
+        <footer>
+            <p>
+                <Address>1234 S. Sunshine St., Springfield, MO, 65804</Address>
+            </p>
+        </footer>
+    </body>
+</html>
