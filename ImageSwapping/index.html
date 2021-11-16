@@ -10,10 +10,10 @@
             <img src="imageone.jpeg" id="bigImage"/>
         </div>
         <div>
-            <img src="imageone.jpeg" class="thumbnail" id="img1" onclick="changeImage('imageone.jpeg')"/>
-            <img src="imagetwo.jpeg" class="thumbnail" id="img2" onclick="changeImage('imagetwo.jpeg')"/>
-            <img src="imagethree.jpeg" class="thumbnail" id="img3" onclick="changeImage('imagethree.jpeg')"/>
-            <img src="imagefour.jpeg" class="thumbnail" id="img4" onclick="changeImage('imagefour.jpeg')"/>
+            <img src="imageone.jpeg" class="thumbnail" id="img1" onclick="changeImage(document.getElementById('img1').src)"/>
+            <img src="imagetwo.jpeg" class="thumbnail" id="img2" onclick="changeImage(document.getElementById('img2').src)"/>
+            <img src="imagethree.jpeg" class="thumbnail" id="img3" onclick="changeImage(document.getElementById('img3').src)"/>
+            <img src="imagefour.jpeg" class="thumbnail" id="img4" onclick="changeImage(document.getElementById('img4').src)"/>
         </div>
         <script src='scripts.js'></script>
     </body>
