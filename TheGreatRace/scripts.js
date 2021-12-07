@@ -46,12 +46,15 @@ function startGame() {
     if (playerDeku.distance >= finishLine) {
         console.log("Deku Wins!");
         document.getElementById('background_img').src='deku_winning.png';
+        document.getElementById("mainText").innerHTML = "Deku Wins! Click on his image to play again!";
     } else if (playerBakugou.distance >= finishLine) {
         console.log("Bakugo Wins!");
         document.getElementById('background_img').src='bakugo_winning.png';
+        document.getElementById("mainText").innerHTML = "Bakugo Wins! Click on his image to play again!";
     } else if (playerTodoroki.distance >= finishLine) {
         console.log("Todoroki Wins!");
         document.getElementById('background_img').src='todoroki_winning.png';
+        document.getElementById("mainText").innerHTML = "Todoroki Wins! Click on his image to play again!";
     } else {
         setTimeout(startGame, 500);
         movePlayer();
@@ -68,5 +71,6 @@ function resetGame() {
     dekuImg.style.left = 0 + "px";
     bakugouImg.style.left = 0 + "px";
     todorokiImg.style.left = 0 + "px";
+    document.getElementById("mainText").innerHTML = "Click on the stoplight to begin the game!";
 } 
 
