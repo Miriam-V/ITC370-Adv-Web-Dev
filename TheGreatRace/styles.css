@@ -17,7 +17,7 @@
 }
 
 .grayRect {
-    height: 50px;
+    height: 80px;
     width: auto;
     background-color: rgb(140, 126, 145);
     border: 2px solid rgb(99, 87, 104);
@@ -68,5 +68,29 @@ body{
 .characterSize {
     height: 75px;
     width: 75px;
+    position: absolute;
 }
 
+#circle1 {
+  position: absolute;
+  top: 813px;
+  left: 100;
+}
+
+#circle2 {
+  position: absolute;
+  top: 898px;
+  left: 100;
+}
+
+#circle3 {
+    position: absolute;
+    top: 982px;
+    left: 100;
+}
+
+#redLight {
+    position:absolute;
+    width: 100px;
+    height: 125px;
+}
