@@ -13,3 +13,46 @@ footer {
     padding: 1%;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    background: darkolivegreen;
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    font-size: 3vw;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background: darkgray;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 480px) {
+    nav ul {
+        display: flex;
+    }
+    nav li {
+        flex: 1 1 auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    nav a {
+        font-size: 20px;
+    }
+}
