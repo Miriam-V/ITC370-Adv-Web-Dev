@@ -71,3 +71,24 @@ img {
     flex: 2;
     padding: 3%;
 }
+
+/* Homepage - Testimonial */
+.container-homepage-testimonials {
+    display: flex;
+}
+
+.testimonial-1 {
+    flex: 1;
+    padding: 3%;
+}
+
+.testimonial-2 {
+    flex: 1;
+    padding: 3%;
+}
+
+.testimonial-3 {
+    flex: 1;
+    padding: 3%;
+}
+
