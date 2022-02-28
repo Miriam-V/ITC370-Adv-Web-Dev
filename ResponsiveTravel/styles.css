@@ -75,6 +75,11 @@ img {
 /* Homepage - Testimonial */
 .container-homepage-testimonials {
     display: flex;
+    text-decoration: aqua;
+}
+
+.testimonial-title {
+    text-align: center;
 }
 
 .testimonial-1 {
