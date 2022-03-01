@@ -97,3 +97,28 @@ img {
     padding: 3%;
 }
 
+/* Homepage: Sponsors */
+.container-homepage-sponsors {
+    display: flex;
+    align-items: center;
+}
+
+.sponsor-1 {
+    flex: 1;
+    padding: 3%;
+}
+
+.sponsor-2 {
+    flex: 1;
+    padding: 3%;
+}
+
+.sponsor-3 {
+    flex: 1;
+    padding: 3%;
+}
+
+.sponsor-4 {
+    flex: 1;
+    padding: 3%;
+}
