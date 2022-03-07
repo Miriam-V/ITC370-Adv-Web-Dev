@@ -122,3 +122,13 @@ img {
     flex: 1;
     padding: 3%;
 }
+
+/* Contact: Map */
+.container-contact-info {
+    display: flex;
+}
+
+.basic-contact {
+    flex: 1;
+    padding: 5%;
+}
