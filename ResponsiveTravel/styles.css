@@ -132,3 +132,30 @@ img {
     flex: 1;
     padding: 5%;
 }
+
+/* Offers */
+.container-offers {
+    display: flex;
+    align-items: center;
+}
+
+#offer-1 {
+    flex: 1;
+    padding: 3%;
+    background-color: blue;
+    text-align: center;
+}
+
+#offer-2 {
+    flex: 1;
+    padding: 3%;
+    background-color: green;
+    text-align: center;
+}
+
+#offer-3 {
+    flex: 1;
+    padding: 3%;
+    background-color: red;
+    text-align: center;
+}
