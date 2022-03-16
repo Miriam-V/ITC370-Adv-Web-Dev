@@ -24,7 +24,7 @@ nav ul {
 
 nav a {
     color: white;
-    background: darkolivegreen;
+    background: #556b2f;
     font-weight: bold;
     display: block;
     padding: 15px;
@@ -152,4 +152,10 @@ img {
 #offer-3 {
     flex: 1;
     padding: 3%;
+}
+
+#block {
+    width: 25em;
+    height: 25em;
+    background-color: blue;
 }
