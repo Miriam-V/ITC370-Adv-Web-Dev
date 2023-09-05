@@ -1,27 +1,46 @@
+
+
+html {
+    margin: 0%;
+    background-color: black;
+}
+
 table, th, td {
     border: 1px solid black;
     text-align: center;
   }
 
 table {
+    /*
     width: 100%;
+    */
     border-collapse: collapse;
+    table-layout: fixed;
 }
 
 td {
     padding-top: 1%;
     padding-bottom: 1%;
+    /*td to 100%/N columns*/
+    width: 0.14285714285%;
+    background-color: white;
 }
+
 
 th {
-    background-color: cornflowerblue;
+    padding: 1%;
+    background-color: black;
+    color: greenyellow;
+    font-size: 20px;
 }
 
+/*
 h1 {
     text-align: center;
     background-color: coral;
     padding: 0px;
 }
+*/
 
 .posrel1 {
     position: relative;
@@ -126,12 +145,145 @@ p.abs5 {
 }
 
 footer.abs {
-    position: absolute;
-    top: 900px;
-    left: 0px;
-    width: 100%;
+    padding: 2%;
+    width: auto;
     text-align: center;
-    background-color: coral;
+    background-color: rgb(85, 85, 85);
+    color: white;
+    font-size: 20px;
 
 }
+
+.headingDiv {
+    background-color: black;
+    color: white;
+    padding: 2%;
+    margin: 0%;
+}
+
+/* Navigation Bar */
+.navDiv {
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+    margin: 0px;
+}
+
+.navDiv a {
+    float: left;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    width: 31%; /* Four links of equal widths */
+    text-align: center;
+}
+
+.navDiv a:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+
+/*Homepage Photo*/
+.homepagePhoto {
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    width: 100%
+}
+
+/*Div with Employees on Homepage*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    background-color: black;
+    padding: 2%;
+    margin: 0%;
+  }
+  .grid-item {
+    background-color: black;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 25px;
+    margin: 0%;
+    border: 0%;
+  }
+
+/*About Gymfinity - Homepage*/
+.aboutDiv {
+    color: white;
+}
+
+.aboutDiv h1 {
+    color: black;
+    font-size: 50px;
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.aboutDiv h2 {
+    font-size: 37.5px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.aboutDiv p {
+    font-size: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.aboutDiv li {
+    font-size: 25px;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.aboutDiv strong {
+    color: greenyellow;
+}
+
+.aboutDiv button {
+    background-color: greenyellow;
+    padding: 1%;
+    font-size: 25px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Class Description - Classes */
+
+.classDescDiv {
+    color: white;
+}
+
+.classDescDiv h1 {
+    color: greenyellow;
+    font-size: 50px;
+    text-align: center;
+}
+
+.classDescDiv strong {
+    color: greenyellow;
+}
+
+.classDescDiv p {
+    font-size: 25px;
+    padding-left: 2%;
+}
+
+/* Form - Information/Registration */
+.formDiv {
+    padding: 2%;
+    font-size: 20px;
+    color: white;
+    
+}
+
+
+
 

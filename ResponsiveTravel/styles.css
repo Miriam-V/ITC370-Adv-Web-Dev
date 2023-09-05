@@ -2,10 +2,12 @@ h1 {
     text-align: center;
 }
 
+/*
 h2 {
     text-align: center;
     color: darkgray;
 }
+*/
 
 footer {
     text-align: center;
@@ -70,6 +72,7 @@ img {
 .box-2 {
     flex: 2;
     padding: 3%;
+    align-self: center;
 }
 
 /* Homepage - Testimonial */
@@ -141,7 +144,7 @@ img {
 /* Offers */
 .container-offers {
     display: flex;
-    align-items: center;
+    align-items: start;
 }
 
 #offer-1 {

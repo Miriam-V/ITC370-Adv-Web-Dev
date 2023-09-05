@@ -6,86 +6,92 @@
             Date: 9/22/2021
         -->
         <meta charset="utf-8">
-        <title>FitForFun Fitness Club - Homepage</title>
+        <title>Gymfinity Fitness Club - Registration</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>FitForFun Fitness Club</h1>
-        <nav>
+        <!--
+        <div class="headingDiv">
+            <h1>FitForFun Fitness Club</h1>
+        </div>
+         -->
+        <div class="navDiv">
             <a href="index.html">Homepage</a>
             <a href="classes.html">Classes</a>
-            <a href="info.html">Information</a>
-        </nav>
-        <h2>Information</h2>
+            <a href="info.html">Registration</a>
+        </div>
+        <h2 style="background-color: greenyellow; padding: 1%; font-size: 50px; margin: 0%; text-align: center;">Registration</h2>
         <br>
-        <form action="file:///C:/Users/minia/OneDrive/Desktop/ITC370-Adv-Web-Dev/FitForFun/thankyou.html"  class="abs" method="GET">
-            <h3>Sign-Up Form</h3>
-            <!-- First Name -->
-            <label for="firstname">First name:</label><br>
-            <input type="text" id="firstname" name="firstname"><br>
-            <!-- Last Name -->
-            <label for="lastname">Last name:</label><br>
-            <input type="text" id="lastname" name="lastname"><br>
-            <!-- Email -->
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <!-- Phone Number -->
-            <label for="phone">Phone Number:</label><br>
-            <input type="tel" id="phone" name="phone"><br>
-            <!-- Best way to reach -->
-            <label for="contact">Best way to reach:</label><br>
-            <select name="contact" id="contact">
-                <option value="email">Email</option>
-                <option value="pnumber">Phone</option>
-                <option value="owl">Owl</option>
-            </select>
-            <!-- Select Classes -->
-            <p>Select Classes:</p>
-            <div>
-                <input type="checkbox" id="crosstrain" name="crosstrain">
-                <label for="crosstrain">Cross Training</label>
-            </div>
-            <div>
-                <input type="checkbox" id="sprint" name="sprint">
-                <label for="sprint">Sprint</label>
-            </div>
-            <div>
-                <input type="checkbox" id="spin" name="spin">
-                <label for="spin">Spin</label>
-            </div>
-            <div>
-                <input type="checkbox" id="bodypump" name="bodypump">
-                <label for="bodypump">BodyPump</label>
-            </div>
-            <div>
-                <input type="checkbox" id="bdycmbt" name="bdycmbt">
-                <label for="bdycmbt">BodyCombat</label>
-            </div>
-            <div>
-                <input type="checkbox" id="stpint" name="stpint">
-                <label for="stpint">Step Interval</label>
-            </div>
-            <div>
-                <input type="checkbox" id="advct" name="advct">
-                <label for="advct">Advanced Cross Training</label>
-            </div>
-            <div>
-                <input type="checkbox" id="mixfit" name="mixfit">
-                <label for="mixfit">MixxedFIT</label>
-            </div>
-            <div>
-                <input type="checkbox" id="zumba" name="zumba">
-                <label for="zumba">Zumba</label>
-            </div>
-            <!--Preferred Class Time-->
-            <p>Please select your preferred class time:</p>
-            <input type="radio" id="am" name="pref_time" value="am">
-            <label for="am">AM</label><br>
-            <input type="radio" id="pm" name="pref_time" value="pm">
-            <label for="pm">PM</label><br>
-            <br>
-            <input type="submit" value="Submit">
-        </form>
+        <div class="formDiv">
+            <form action="file:///C:/Users/minia/OneDrive/Desktop/ITC370-Adv-Web-Dev/FitForFun/thankyou.html"  class="abs" method="GET">
+                <h3>Sign-Up Form</h3>
+                <!-- First Name -->
+                <label for="firstname">First name:</label><br>
+                <input type="text" id="firstname" name="firstname"><br>
+                <!-- Last Name -->
+                <label for="lastname">Last name:</label><br>
+                <input type="text" id="lastname" name="lastname"><br>
+                <!-- Email -->
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <!-- Phone Number -->
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone"><br>
+                <!-- Best way to reach -->
+                <br>
+                <label for="contact">Best way to reach:</label><br>
+                <select name="contact" id="contact">
+                    <option value="email">Email</option>
+                    <option value="pnumber">Phone</option>
+                </select>
+                <!-- Select Classes -->
+                <p>Select Classes:</p>
+                <div>
+                    <input type="checkbox" id="powerbox" name="powerbox">
+                    <label for="powerbox">Power Box</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="spin" name="spin">
+                    <label for="spin">Spinning Spectrum</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="strength" name="strength">
+                    <label for="strength">Strength Sculpt</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="bodypump" name="bodypump">
+                    <label for="bodypump">BodyPump</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="aqua" name="aqua">
+                    <label for="aqua">AquaFit Oasis</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="hiit" name="hiit">
+                    <label for="hiit">Infinity HIIT</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="senior" name="senior">
+                    <label for="senior">Senior Strength</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="nutrition" name="nutrition">
+                    <label for="nutrition">Nutrition Workshop</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="dance" name="dance">
+                    <label for="dance">Dance Fusion</label>
+                </div>
+                <!--Preferred Class Time-->
+                <p>Please select your preferred class time:</p>
+                <input type="radio" id="am" name="pref_time" value="am">
+                <label for="am">AM</label><br>
+                <input type="radio" id="pm" name="pref_time" value="pm">
+                <label for="pm">PM</label><br>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
         <br>
         <footer class="abs">
             <p>© 2021 by FitForFun</p>
