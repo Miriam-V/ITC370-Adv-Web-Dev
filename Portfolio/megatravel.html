@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio - Miriam Vera</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gym.html">Project 1</a></li>
+          <li><a href="viaje.html">Project 2</a></li>
+          <li><a class="active" href="megatravel.html">Project 3</a></li>
+        </ul>
+        <div class="grid-container">
+          <div class="grid-item" style="text-align: left;">
+            <h1>Mega Travel</h1>
+            <p>Description: A website for a travel agency.</p>
+            <p>Github Link: <a href="https://github.com/Miriam-V/ITC475-Adv-Web-Dev/tree/master/MegaTravel">Mega Travel</a></p>
+            <button type="button">HTML</button>
+            <button type="button">CSS</button>
+            <button type="button">JavaScript</button>
+            <button type="button">PHP</button>
+          </div>
+          <div class="grid-item">
+              <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="mega/mega-1.png" style="width:100%">
+          </div>
+      
+          <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="mega/mega-2.png" style="width:100%">
+          </div>
+      
+          <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="mega/mega-3.png" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+              <div class="numbertext">4 / 4</div>
+              <img src="mega/mega-4.png" style="width:100%">
+              </div>
+
+      
+              <!-- Next and previous buttons -->
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+
+
+
+          </div>
+        </div>
+      
+
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+        </script>
+
+    </body>
+</html>

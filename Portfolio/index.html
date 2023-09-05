@@ -7,94 +7,20 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Hello, my name is Miriam Vera.</h1>
-        <h1>Projects</h1>
-        <h2>Gymfinity</h2>
-        <!-- Slideshow container -->
-        <div class="slideshow-container">
-
-            <!-- Full-width images with number and caption text -->
-            <div class="mySlides fade">
-            <div class="numbertext">1 / 6</div>
-            <img src="gym/gym-1.png" style="width:100%">
-            <div class="text">Caption Text</div>
-            </div>
-        
-            <div class="mySlides fade">
-            <div class="numbertext">2 / 6</div>
-            <img src="gym/gym-2.png" style="width:100%">
-            <div class="text">Caption Two</div>
-            </div>
-        
-            <div class="mySlides fade">
-            <div class="numbertext">3 / 6</div>
-            <img src="gym/gym-3.png" style="width:100%">
-            <div class="text">Caption Three</div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">4 / 6</div>
-                <img src="gym/gym-4.png" style="width:100%">
-                <div class="text">Caption Four</div>
-                </div>
-
-            
-            <div class="mySlides fade">
-            <div class="numbertext">5 / 6</div>
-            <img src="gym/gym-5.png" style="width:100%">
-            <div class="text">Caption Five</div>
-            </div>
-
-            <div class="mySlides fade">
-            <div class="numbertext">6 / 6</div>
-            <img src="gym/gym-6.png" style="width:100%">
-            <div class="text">Caption Six</div>
-            </div>
-        
-            <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="gym.html">Project 1</a></li>
+          <li><a href="viaje.html">Project 2</a></li>
+          <li><a href="megatravel.html">Project 3</a></li>
+        </ul>
+            <section class="about-me">
+              <h1>About Me</h1>
+              <p>Hello, I'm Miriam, a passionate web developer with a keen interest in UX design. I hold a Bachelor's of Science in Information Technology with a concentration in application development, which I earned from Missouri State University.</p>
+              <p>My journey into the world of web development and UX design began during my time at university, where I not only gained a strong foundation in programming languages such as HTML, CSS, JavaScript, and more but also discovered my fascination with creating user-centric digital experiences.</p>
+              <p>I'm truly passionate about the intersection of web development and UX design. I believe that great websites and applications are not just functional but also delightful to use. I'm constantly seeking ways to enhance the user journey, ensuring that every interaction is intuitive and engaging.</p>
+              <p>When I'm not immersed in coding or improving user experiences, you can find me tending to my garden, headphones on, listening to a thought-provoking podcast, or exploring new ways to merge my passion for web development and UX design.</p>
+              <p>I'm excited to embark on new adventures in web development and UX design, combining the art of coding with the science of user experience to create impactful digital solutions.</p>
+            </section>
         </div>
-        <br>
-        
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-            <span class="dot" onclick="currentSlide(5)"></span>
-            <span class="dot" onclick="currentSlide(6)"></span>
-        </div>
-
-        <script>
-            let slideIndex = 1;
-            showSlides(slideIndex);
-            
-            function plusSlides(n) {
-              showSlides(slideIndex += n);
-            }
-            
-            function currentSlide(n) {
-              showSlides(slideIndex = n);
-            }
-            
-            function showSlides(n) {
-              let i;
-              let slides = document.getElementsByClassName("mySlides");
-              let dots = document.getElementsByClassName("dot");
-              if (n > slides.length) {slideIndex = 1}    
-              if (n < 1) {slideIndex = slides.length}
-              for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
-              }
-              for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block";  
-              dots[slideIndex-1].className += " active";
-            }
-        </script>
-
     </body>
 </html>
